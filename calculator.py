@@ -1,23 +1,11 @@
 def addition(a, b):
-    try:
-        return round(a + b, 2)
-    except:
-        return -1
+    return round(a + b, 2)
 
 def subtraction(a, b):
-    try:
-        return round(a - b, 2)
-    except:
-        return -1
+    return round(a - b, 2)
 
 def multiplication(a, b):
-    try:
-        return round(a * b, 2)
-    except:
-        return -1
+    return round(a * b, 2)
 
 def division(a, b):
-    try:
-        return round(a / b, 2)
-    except:
-        return -1
+    return round(a / b, 2)
